@@ -1,0 +1,108 @@
+canvas 
+{
+    position: absolute;
+    display: block;
+    border: 2px solid #aaaaaa;
+    
+}
+
+#myCanvas
+{
+    background-image: url("../../resources/ChromeDinossaur/fundo.png");
+}
+
+#instructionsCanvas 
+{
+    margin-left: 32.5%;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 12%;
+    display: block;
+    border: 2px solid #aaaaaa;
+    background-color: rgba(49, 196, 190,0.9);
+}
+
+button{
+
+    
+    position: absolute;
+    font-family: 'Source Sans Pro', sans-serif;
+	margin: 10%;
+    text-align: center;
+    width: 290px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+	opacity: 0.9;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #b3b3b3, #000080, #b3b3b3, #000080);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+
+
+}
+
+button:hover{
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+button:focus{
+	outline: none;
+}
+
+
+#button-jogar{
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 33%;
+    
+}
+
+#button-continuar{
+    visibility: hidden;
+    margin-top: 24%;  
+    margin-left: 33%;  
+}
+
+#button-instructions{
+    position: absolute;
+    margin-top: 36%;
+    margin-left: 33%;
+}
+
+#button-desistir{
+    visibility: hidden;
+    margin-top: 36%;
+    margin-left: 33%;
+}
+
+#button-voltar{
+    position: absolute;
+    visibility: hidden;
+    margin-top: 40%;
+    margin-left: 33%;
+}
+
+instructions
+{
+    position: absolute;
+    margin-left: 34%;
+    margin-top: 22%;
+    visibility: hidden;
+    font-family: 'Pixel';
+    font-size: 12px;
+    text-align: start;
+    width: 300px;
+}

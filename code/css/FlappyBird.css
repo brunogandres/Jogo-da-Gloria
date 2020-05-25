@@ -1,0 +1,110 @@
+canvas 
+{
+    position: absolute;
+    margin-top: 50px;
+    
+    display: block;
+    border: 2px solid #aaaaaa;
+    /*background-color: black;*/
+    
+}
+
+#myCanvas
+{
+    margin-left: 40%;
+    background-image: url(../../resources/FlappyBird/Fundo.png);
+}
+
+#instructionsCanvas 
+{
+    margin-left: 40%;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 12%;
+    display: block;
+    border: 2px solid #aaaaaa;
+    background-color: rgba(244,240,168,0.9);
+}
+
+#pontuacaoCanvas
+{
+    position: absolute;
+    margin-left: 10%;
+    border: 2px solid #000000;
+    background-image: url(../../resources/FlappyBird/fundoPontuacao.png);
+    background-color: "black";
+}
+
+
+button{
+    position: absolute;
+    font-family: 'Pixel';
+    text-align: center;
+    width: 290px;
+    margin: auto;
+    margin-left: 40.5%;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+	opacity: 0.9;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #25aae1, #FCEE21, #25aae1, #FCEE21);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+button:hover{
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+button:focus{
+	outline: none;
+}
+
+
+#button-jogar{	
+    margin-top: 28%;    
+}
+
+#button-instructions{
+    margin-top: 38%;
+}
+
+#button-continuar{
+    visibility: hidden;
+    margin-top: 28%;    
+}
+
+#button-desistir{
+    visibility: hidden;
+    margin-top: 38%;
+}
+
+#button-voltar{
+    visibility: hidden;
+    margin-top: 39%;
+}
+
+instructions
+{
+    position: absolute;
+    margin-left: 40.5%;
+    margin-top: 16%;
+    visibility: hidden;
+    font-family: 'Pixel';
+    font-size: 12px;
+    text-align: start;
+    width: 300px;
+}

@@ -1,0 +1,147 @@
+canvas{
+    background-color: white;
+    position: absolute;
+    visibility: hidden;
+    margin-left: 8%;
+}
+body {
+    position: absolute;
+    background-image:url("../../resources/novofundo.gif");
+
+    background-repeat: repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    height:100%;
+    width:100%;
+}
+
+p{
+    position: absolute;
+    width: 200px;
+    left: 900px;
+    font-family: "Pixel";
+    color: black;
+    font-size: 30px;
+    margin-top: 15%;
+
+}
+
+#p1{
+    position: absolute;
+    top: -80px;
+
+}
+
+#current{
+    position: absolute;
+    top: -80px;
+    left: 1100px;
+
+}
+
+#p2{
+    position: absolute;
+    top: 0px;
+
+}
+
+
+
+#next{
+    position: absolute;
+    top: 0px;
+    left: 1100px;
+
+}
+
+iframe{
+    border-color: red;
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+
+}
+
+#titulo{
+    position: absolute;
+    width: 400px;
+    left: 900px;
+    top: 50px;
+    margin-top: 0%;
+}
+
+#dice{
+    position: absolute;
+    right: 40px;
+    top: 350px;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+
+button{
+    position: absolute;
+    font-family: "Pixel";
+	color: black;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition-duration: 0.25s;
+
+    position: absolute;
+    width: 150px;
+    left: 900px;
+    font-size: 18px;
+    margin-top: 15%;
+
+
+}
+
+button:hover{
+    background-color: rgb(245, 247, 249);
+}
+
+
+#playBtn{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 27%;
+}
+
+#creditsBtn{
+    position: absolute;
+    margin-top: 35%;
+}
+#helpBtn{
+    position: absolute;
+    margin-top: 40%;
+}
+#button-next{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 13%;
+    visibility: hidden;
+}
+
+#button-previous{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: -50%;
+    visibility: hidden;
+}
+
+#button-voltar{
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 13%;
+    visibility: hidden;
+}
+
+

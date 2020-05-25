@@ -1,0 +1,19 @@
+
+canvas {
+    height:90%;
+    width:90%;
+    background-image: url("../../resources/boardgame.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 500px 500px;
+    
+}
+
+#boardgame{
+
+    position: center;
+    height: 200px;
+    width:100%;
+
+}

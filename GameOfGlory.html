@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game of Glory</title>
+    
+    <link rel="stylesheet" href="code\css\painel_inicial.css">
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+
+<body>
+    
+    <img src= "resources\titulopcao2.png" id = "titulo"></img>
+    
+    <canvas id="canvasInstructions" width="800" height="600"></canvas>
+    
+    <instructions id="instructions">
+        <p>Neste minijogo terás de conquistar 10 ou mais pontos para o ultrpassar.</p>
+        <p>Para isso terás de conseguir passar entre os canos para ganhar 1 ponto de cada vez</p>
+        <p>Arrow Up -> Faz o pássaro voar</p>
+        <p>Arrow Down -> Faz o pássaro descer levemente</p>
+        <p>P -> Pausa</p>
+    </instructions>
+
+    <section id = credits class="run_animation">
+        <h1>Realizado Por:</h1>
+        <p>Ana Beatriz</p>
+        <p>Bruno Gandres</p>
+        <p>João Sá</p>
+        <h1>Cadeira:</h1>
+        <p>Multimédia</p>
+
+    </section>
+
+    <label id = "numero" >Numero de jogadores:</label>
+
+        <select id="players">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        </select>
+
+    
+    <button id="button-jogar">Jogar</button>
+    <button id="button-creditos">Creditos</button>
+    <button id="button-ajuda">Ajuda</button>
+    <button id="button-voltar">Voltar</button>
+
+    <audio controls autoplay loop>  
+        <source src="resources\cabrita.ogg" type="audio/ogg">  
+        <source src="resources\cabrita.mp3" type="audio/mpeg">  
+    </audio>
+    
+    
+    <volume_slider>
+        <i id = "maximo" class="fas fa-volume-up" style="font-size:48px; color:white;"></i>
+        <input id ="volumeslider" type="range" min="0" max="100" value="100" step="1">
+        <i id = "mute" class="fas fa-volume-mute" style="font-size:48px; color:white;"></i>
+    </volume_slider>
+
+    <script type="text/javascript" src="code\js\painel_inicial.js"></script>
+        
+</body>
+
+

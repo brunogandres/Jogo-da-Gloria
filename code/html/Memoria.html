@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Jogo memória</title>
+
+
+        <link rel="stylesheet" href="../css/Memoria.css">
+     
+    </head>
+    
+    <body>
+        
+
+        <button id="desistir" > Desistir</button>
+        <button id="buttonAjuda" > Ajuda</button>
+
+
+        
+        <p id="moves">0 </p>
+        <p>Moves</p>
+
+        <section class="jogo">
+            <div class="carta" data-framework="aleixo" id="1">
+                <img class="frente" src="../../resources/Memoria/aleixo.png" alt="aleixo" />
+                <img class="verso" src="../../resources/Memoria/logotipo.png" alt="logotipo" />
+            </div>
+            
+            <div class="carta" data-framework="aleixo" id="2">
+                <img class="frente" src="../../resources/Memoria/aleixo.png" alt="aleixo" />
+                <img class="verso" src="../../resources/Memoria/logotipo.png" alt="logotipo" />
+            </div>
+
+            <div class="carta" data-framework="Kermit" id="3">
+                <img class="frente" src="../../resources/Memoria/Kermit.png" alt="Kermit" />
+                <img class="verso" src="../../resources/Memoria/logotipo.png" alt="logotipo" />
+            </div>
+            
+            <div class="carta" data-framework="Kermit" id="4">
+                <img class="frente" src="../../resources/Memoria/Kermit.png" alt="Kermit" />
+                <img class="verso" src="../../resources/Memoria/logotipo.png" alt="logotipo" />
+            </div>
+
+            <div class="carta" data-framework="shrek" id="5">
+                <img class="frente" src="../../resources/Memoria/shrek.png" alt="shrek" />
+                <img class="verso" src="../../resources/Memoria/logotipo.png" alt="logotipo" />
+            </div>
+          
+            <div class="carta" data-framework="shrek" id="6">
+                <img class="frente" src="../../resources/Memoria/shrek.png" alt="shrek" />
+                <img class="verso" src="../../resources/Memoria/logotipo.png" alt="logotipo" />
+            </div>
+
+            <div class="carta" data-framework="Keanu" id="7">
+                <img class="frente" src="../../resources/Memoria/Keanu.png" alt="Keanu" />
+                <img class="verso" src="../../resources/Memoria/logotipo.png" alt="logotipo" />
+            </div>
+            
+            <div class="carta" data-framework="Keanu" id="8">
+                <img class="frente" src="../../resources/Memoria/Keanu.png" alt="Keanu" />
+                <img class="verso" src="../../resources/Memoria/logotipo.png" alt="logotipo" />
+            </div>
+
+            <div class="carta" data-framework="spiderman" id="9">
+                <img class="frente" src="../../resources/Memoria/spiderman.png" alt="spiderman" />
+                <img class="verso" src="../../resources/Memoria/logotipo.png" alt="logotipo" />
+            </div>
+            
+            <div class="carta" data-framework="spiderman" id="10">
+                <img class="frente" src="../../resources/Memoria/spiderman.png" alt="spiderman" />
+                <img class="verso" src="../../resources/Memoria/logotipo.png" alt="logotipo" />
+            </div>
+
+            <div class="carta" data-framework="Nyan" id="11">
+                <img class="frente" src="../../resources/Memoria/Nyan.png" alt="Nyan" />
+                <img class="verso" src="../../resources/Memoria/logotipo.png" alt="logotipo" />
+            </div>
+            
+            <div class="carta" data-framework="Nyan" id="12">
+                <img class="frente" src="../../resources/Memoria/Nyan.png" alt="Nyan" />
+                <img class="verso" src="../../resources/Memoria/logotipo.png" alt="logotipo" />
+            </div>
+        </section>
+
+        <canvas id = "canvasAjuda" width="400" height="300" ></canvas>
+
+        <button id="buttonVoltar" > Voltar</button>
+
+
+
+        <script src="../js/Memoria/Memoria.js"></script>
+        <script src="../js/Memoria/GameEngine.js"></script>
+        
+  </body>
+</html>

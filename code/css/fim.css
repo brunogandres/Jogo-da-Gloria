@@ -1,0 +1,111 @@
+body {
+    position: absolute;
+    background-image:url("../../resources/novofundo.gif");
+
+    background-repeat: repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    height:100%;
+    width:100%;
+}
+
+
+
+#titulo{
+	position: absolute;
+	margin-left: 28%;
+	margin-top: 5%;
+}
+
+#h1{
+	position: absolute;
+	font-family:  'Pixel';
+	font-size: 50px;
+	margin-left: 27.5%;
+	margin-top: 11%;
+}
+
+button{
+    position: absolute;
+    font-family: 'Pixel';
+    text-align: center;
+    width: 290px;
+    margin: auto;
+    margin-left: 40.5%;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    opacity: 0.9;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #25aae1, #FCEE21, #25aae1, #FCEE21);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+button:hover{
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+button:focus{
+    outline: none;
+}
+
+#button-jogo{
+	margin-left: 27%;
+	margin-top: 40%;
+}
+
+
+#button-sair{
+	margin-left: 50%;
+	margin-top: 40%;
+}
+
+section
+{
+    position: absolute;
+    visibility: visible;
+    color: white;   
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 13%;
+    left: 85px;
+    top: 500px; /*25px*/
+    width: 380px;
+    height: 800px; /*340px;*/ 
+    overflow: hidden;
+    animation: showCredits linear 8s;
+}
+
+.run-animation{
+    animation: showCredits linear 8s;
+}
+
+@keyframes showCredits
+{
+    72% {height: 340px; top: 50px;}
+    80% {height: 340px; top: 25px;}
+    100% {height: 340px; top: 25px;}
+}
+
+h1
+{
+    font: bold 30px Pixel;
+}
+
+p
+{
+    font: 20px Pixel;
+}

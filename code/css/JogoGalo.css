@@ -1,0 +1,88 @@
+canvas 
+{
+    position: absolute;
+    
+    display: block;
+    border: 2px solid #aaaaaa;
+    
+}
+
+#myCanvas
+{
+	margin-left: 15%;
+    background-image: url("../../resources/JogoGalo/fundo.png");
+}
+
+#instructionsCanvas 
+{
+	margin-left: 30%;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 13%;
+    display: block;
+    border: 2px solid #aaaaaa;
+    background-color: rgba(247, 194, 136,0.9);
+}
+
+
+button{
+    position: absolute;
+    font-family: 'Pixel';
+    text-align: center;
+    width: 290px;
+    margin-left: 30.5%;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+	opacity: 0.9;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #ffb366, #ffff80, #ffb366, #ffff80);
+    box-shadow: 0 4px 15px 0 rgba(244,240,168, 0.75);
+}
+
+button:hover{
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+button:focus{
+	outline: none;
+}
+
+
+#button-jogar{	
+    margin-top: 22%;    
+}
+
+#button-instructions{
+    margin-top: 35%;
+}
+
+#button-voltar{
+    visibility: hidden;
+    margin-top: 35%;
+}
+
+div
+{
+    position: absolute;
+    margin-left: 30.5%;
+    margin-top: 18%;
+    visibility: hidden;
+    font-family: 'Pixel';
+    font-size: 12px;
+    text-align: start;
+    width: 300px;
+}

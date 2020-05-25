@@ -1,0 +1,97 @@
+canvas 
+{
+    position: absolute;
+    display: block;
+    border: 2px solid #aaaaaa;
+    /*background-color: black;*/
+    
+}
+
+#myCanvas{
+    background-image: url("../../resources/Corrida/fundo.png");
+}
+
+#instructionsCanvas 
+{
+    margin-left: 15%;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 12%;
+    display: block;
+    border: 2px solid #aaaaaa;
+    background-color: rgba(201, 156, 137,0.9);
+    background-image: url("../../resources/Corrida/ajuda.png");
+}
+
+button{
+
+    
+
+    font-family: 'Source Sans Pro', sans-serif;
+	margin: 10%;
+    text-align: center;
+    width: 290px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+	opacity: 0.9;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #8c8c8c, #660000, #8c8c8c, #660000);
+    box-shadow: 0 4px 15px 0 rgba(102, 0, 0, 0.75);
+
+
+}
+
+button:hover{
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+button:focus{
+	outline: none;
+}
+
+
+#button-jogar{
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 33%;
+    
+}
+
+#button-instructions{
+    position: absolute;
+    margin-top: 36%;
+    margin-left: 33%;
+}
+
+#button-voltar{
+    position: absolute;
+    visibility: hidden;
+    margin-top: 62%;
+    margin-left: 30%;
+}
+
+instructions
+{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 24%;
+    visibility: hidden;
+    font-family: 'Pixel';
+    font-size: 12px;
+    text-align: start;
+    width: 300px;
+}
